@@ -350,6 +350,7 @@ async def download_audio(audio_id: str):
 async def options_handler():
     return {"message": "OK"}
 
+'''
 if __name__ == "__main__":
     import uvicorn
     print("🚀 Starting EduAI Pro FastAPI Server...")
@@ -365,3 +366,4 @@ if __name__ == "__main__":
         reload=True,
         log_level="info"
     )
+'''
